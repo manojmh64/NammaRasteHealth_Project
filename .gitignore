@@ -1,0 +1,40 @@
+# Namma-Raste Health — .gitignore
+
+# ── Gradle ────────────────────────────────────────────────────────────────────
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ── Android Studio ───────────────────────────────────────────────────────────
+*.iml
+.idea/
+*.hprof
+.DS_Store
+Thumbs.db
+
+# ── Local properties ─────────────────────────────────────────────────────────
+# Contains SDK path and API keys — NEVER commit this
+local.properties
+
+# ── Generated files ───────────────────────────────────────────────────────────
+/app/src/main/java/com/nammaraste/health/data/db/AppDatabase_Impl.kt
+
+# ── Release keystores ─────────────────────────────────────────────────────────
+*.jks
+*.keystore
+
+# ── Room schema ───────────────────────────────────────────────────────────────
+# Keep the schema export JSON for migration history tracking
+# app/schemas/         ← DO commit this folder
+
+# ── Captures / profiling ─────────────────────────────────────────────────────
+captures/
+*.trace
+
+# ── Test reports ─────────────────────────────────────────────────────────────
+app/build/reports/
+
+# ── Kotlin DSL cache ──────────────────────────────────────────────────────────
+.kotlin/

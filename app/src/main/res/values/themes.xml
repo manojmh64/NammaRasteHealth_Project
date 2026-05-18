@@ -1,0 +1,15 @@
+<resources>
+    <!-- Base application theme - uses SplashScreen API -->
+    <style name="Theme.NammaRasteHealth" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <!-- Splash screen theme applied to MainActivity before setContent() -->
+    <style name="Theme.NammaRasteHealth.Splash" parent="Theme.NammaRasteHealth">
+        <item name="android:windowSplashScreenBackground">#0A0F1E</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_splash_road</item>
+        <item name="postSplashScreenTheme">@style/Theme.NammaRasteHealth</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Namma-Raste Health</string>
+    <string name="app_description">Rural Road Maintenance Tracker</string>
+    <string name="report_damage">Report Damage</string>
+    <string name="road_directory">Road Directory</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="contractors">Contractors</string>
+    <string name="map">Road Map</string>
+</resources>

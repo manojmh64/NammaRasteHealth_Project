@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Launcher icon foreground — road + health check mark -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Road surface (left lane + right lane) -->
+    <path
+        android:fillColor="#2D9CDB"
+        android:pathData="M40,22 L40,86 L68,86 L68,22 Z" />
+
+    <!-- Center dashed lane markings (white) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M51,28 L57,28 L57,40 L51,40 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M51,46 L57,46 L57,58 L51,58 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M51,64 L57,64 L57,76 L51,76 Z" />
+
+    <!-- Health check circle (green) -->
+    <path
+        android:fillColor="#00C853"
+        android:pathData="M76,24 m-12,0 a12,12 0 1,0 24,0 a12,12 0 1,0 -24,0" />
+    <!-- Check mark (white) inside circle -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M70,24 L74.5,29 L82,20"
+        android:fillColor="@android:color/transparent" />
+
+</vector>
